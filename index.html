@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ahmed Ali Mughal Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+  <!-- Loader -->
+  <div class="neon-loader">
+    <div class="neon-loader-ring"></div>
+  </div>
+  <!-- Scroll Progress Bar -->
+  <div id="scrollBar"></div>
+  <!-- Navbar -->
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#show-section">About</a></li>
+      <li><a href="#education-section">Education</a></li>
+      <li><a href="#skills-section">Skills</a></li>
+      <li><a href="#services-section">Services</a></li>
+      <li><a href="#timeline-section">Experiences</a></li>
+      <li><a href="#projects-section">Projects</a></li>
+      <li><a href="#contact-section">Contact</a></li>
+    </ul>
+    <button class="toggle-mode" id="toggleMode" title="Toggle Light/Dark Mode">
+      <i class="fas fa-moon"></i>
+    </button>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+  <!-- Font Awesome Icons; Make sure to add it in the <head> tag -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  <!-- Hero Section -->
+  <div class="hero-container">
+    <video autoplay muted loop class="bg-video">
+      <source src="Ahmed_video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <p class="fade-in">Crafting Modern Web Experiences</p>
+      <h1 class="slide-up bubble-zoom">AHMED ALI MUGHAL</h1>
+      <div class="typing-container">
+        <h3 class="typing-text">i'm web developer</h3>
+      </div>
+      <button class="glowing-button"><a href="Ahmed.pdf">View Resume</a></button>
+    </div>
+    <a href="#show-section" class="down-arrow">&#8595;</a>
+  </div>
+  <!-- About -->
+  <div class="show-section" id="show-section">
+    <div class="show-left">
+      <h2>Step into the creative world of Ahmed Ali Mughal</h2>
+      <p>
+        Ahmed Ali Mughal, a name synonymous with innovative web solutions, is celebrated for crafting engaging digital
+        experiences that reveal the unseen, the unique, and the truly impactful. With every project, he dives deep into
+        the art of web development, blending creativity and technology to deliver seamless user journeys and memorable
+        interfaces, always keeping users inspired and engaged.
+      </p>
+    </div>
+    <div class="show-right">
+      <div class="img-rectangle">
+        <img src="Ahmed_Pic.jpg" alt="Portfolio Preview">
+      </div>
+    </div>
+  </div>
+  <!-- Education -->
+  <div class="education-section" id="education-section">
+    <div class="education-left">
+      <h1>Education</h1>
+      <p>
+        Ahmed Ali Mughal’s educational journey reflects a strong foundation in both academics and technology. After
+        completing Matriculation and Intermediate with dedication, he is currently pursuing undergraduate studies at
+        Dawood University of Engineering and Technology. Throughout his academic path, Ahmed has consistently
+        demonstrated a passion for learning and innovation. Alongside his studies, he has developed advanced skills as a
+        web developer, blending technical expertise with creative problem-solving to deliver impactful digital
+        solutions.
+      </p>
+    </div>
+    <div class="education-right">
+      <div class="edu-block">
+        <div class="edu-title">Bachelor of Computer Science in Film Studies</div>
+        <div class="edu-school">Dawood University of Engineering and Technology</div>
+        <div class="edu-detail">Concentration: Web Development &amp; Software Engineering</div>
+      </div>
+      <div class="edu-line"></div>
+      <div class="edu-block">
+        <div class="edu-title">Bachelor of Computer Science in Film Studies</div>
+        <div class="edu-school">Dawood University of Engineering and Technology</div>
+        <div class="edu-detail">Concentration: Web Development &amp; Software Engineering</div>
+        <div class="edu-honor">Honors: Dean's List for Academic Excellence</div>
+      </div>
+      <div class="edu-line"></div>
+      <div class="edu-block">
+        <div class="edu-title">Short Course in Web Development</div>
+        <div class="edu-school">Al-Raza Center</div>
+        <div class="edu-detail">Gained hands-on experience in HTML, CSS, and JavaScript to build responsive websites.
+        </div>
+      </div>
+      <div class="edu-line"></div>
+      <div class="edu-block">
+        <div class="edu-title">Short Course in Computer Information Technology</div>
+        <div class="edu-school">Al-Raza Center</div>
+        <div class="edu-detail">Studied the fundamentals of computer systems, networking, and database management.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills -->
+  <div class="skills-section" id="skills-section">
+    <h1>Skills</h1>
+    <div class="skills-list">
+      <div class="skill-item bubble-zoom">
+        <i class="fab fa-html5"></i>
+        <span>HTML</span>
+      </div>
+      <div class="skill-item bubble-zoom">
+        <i class="fab fa-css3-alt"></i>
+        <span>CSS</span>
+      </div>
+      <div class="skill-item bubble-zoom">
+        <i class="fab fa-js"></i>
+        <span>JavaScript</span>
+      </div>
+      <div class="skill-item bubble-zoom">
+        <i class="fab fa-java"></i>
+        <span>Java</span>
+      </div>
+      <div class="skill-item bubble-zoom">
+        <i class="fas fa-database"></i>
+        <span>MySQL</span>
+      </div>
+      <div class="skill-item bubble-zoom">
+        <i class="fab fa-android"></i>
+        <span>Android</span>
+      </div>
+    </div>
+  </div>
+  <!-- Services -->
+  <div class="services-section" id="services-section">
+    <h1>Services</h1>
+    <div class="services-list">
+      <div class="service-card bubble-zoom">
+        <i class="fas fa-laptop-code"></i>
+        <h2>Web Development</h2>
+        <p>
+          Responsive, fast, and modern websites using the latest technologies. Custom solutions for your business or
+          portfolio.
+        </p>
+      </div>
+      <div class="service-card bubble-zoom">
+        <i class="fas fa-mobile-alt"></i>
+        <h2>Mobile App Development</h2>
+        <p>
+          Android app design and development with a focus on user experience and performance.
+        </p>
+      </div>
+      <div class="service-card bubble-zoom">
+        <i class="fas fa-paint-brush"></i>
+        <h2>UI/UX Design</h2>
+        <p>
+          Clean, creative, and user-friendly interfaces for web and mobile applications.
+        </p>
+      </div>
+      <div class="service-card bubble-zoom">
+        <i class="fas fa-database"></i>
+        <h2>Database Solutions</h2>
+        <p>
+          MySQL database design, optimization, and integration for scalable applications.
+        </p>
+      </div>
+      <div class="service-card bubble-zoom">
+        <i class="fas fa-search"></i>
+        <h2>SEO Optimization</h2>
+        <p>
+          Improve your website’s visibility and ranking with modern SEO strategies.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- experience_showcase -->
+  <div class="timeline-container" id="timeline-section">
+    <h1>Experiences</h1>
+    <div class="timeline">
+      <div class="timeline-line"></div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-date">2022</div>
+          <h3>Markaz DropShipping</h3>
+          <p>verification Calls,Customar Information,Order Processing, Customar Support</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-date">2023</div>
+          <h3>Web Development</h3>
+          <p>Developed responsive websites using HTML, CSS, and JavaScript more elaborately.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-date">2025</div>
+          <h3>AutoCAD</h3>
+          <p>Proficient in AutoCAD for 2D and 3D design, drafting, and modeling.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Projects -->
+  <div class="projects-section" id="projects-section">
+    <h1>My Projects</h1>
+    <div class="projects-list">
+      <div class="project-card bubble-zoom">
+        <div class="project-img">
+          <img src="gul_logo.png" alt="Project 1">
+        </div>
+        <h2>GulmoharCity Karachi</h2>
+        <p>
+          gulmoharcity karachi is a modern real estate project that offers luxurious living spaces with state-of-the-art
+          amenities. The project features residential apartments, commercial spaces, and recreational facilities
+          designed to provide a comfortable and convenient lifestyle.
+        </p>
+        <div class="project-links">
+          <a href="https://coderaam.github.io/3GulmoharCity/" target="_blank" class="btn-demo">Live Demo</a>
+          <a href="https://github.com/coderAAM" target="_blank" class="btn-github"><i class="fab fa-github"></i>
+            GitHub</a>
+        </div>
+      </div>
+      <div class="project-card bubble-zoom">
+        <div class="project-img">
+          <img src="Ahmed_Pic.jpg" alt="Project 2">
+        </div>
+        <h2>Portfolio</h2>
+        <p>
+          A personal portfolio website showcasing my skills, projects, and experience.
+        </p>
+        <div class="project-links">
+          <a href="index.html" target="_blank" class="btn-demo">Live Demo</a>
+          <a href="https://github.com/coderAAM" target="_blank" class="btn-github"><i class="fab fa-github"></i>
+            GitHub</a>
+        </div>
+      </div>
+      <div class="project-card bubble-zoom">
+        <div class="project-img">
+          <img src="food.png" alt="Project 3">
+        </div>
+        <h2>Food Website</h2>
+        <p>
+          A website dedicated to food lovers, featuring recipes, cooking tips, and restaurant reviews.
+        </p>
+        <div class="project-links">
+          <a href="https://coderaam.github.io/AHMEDALI_FOOD_WEBSITE/" target="_blank" class="btn-demo">Live Demo</a>
+          <a href="https://github.com/coderAAM" target="_blank" class="btn-github"><i class="fab fa-github"></i>
+            GitHub</a>
+        </div>
+      </div>
+      <div class="project-card bubble-zoom">
+        <div class="project-img">
+          <img src="nice_Ahmed.jpg" alt="Project 4">
+        </div>
+        <h2>CV Profile</h2>
+        <p>
+          A personal website showcasing my CV, skills, and professional experience.
+        </p>
+        <div class="project-links">
+          <a href="https://coderaam.github.io/CV_PROFILE/" target="_blank" class="btn-demo">Live Demo</a>
+          <a href="https://github.com/coderAAM" target="_blank" class="btn-github"><i class="fab fa-github"></i>
+            GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contact -->
+  <div class="contact-section" id="contact-section">
+    <h1>Get In Touch</h1>
+    <form class="contact-form" action="https://formspree.io/f/mdkzyzaz" method="POST">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <textarea name="message" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="btn-send">Send Message</button>
+
+    </form>
+    <div class="connect-section">
+      <h2>Connect With Me</h2>
+      <div class="social-icons">
+        <a href="https://github.com/coderAAM" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/ahmedalimughal675?igsh=eHp3d3NrMnpvYjM1" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/share/1AX5NrGzQt/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.youtube.com/@realahmedmughal" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; 2025 Ahmed Ali Mughal, All rights reserved
+    </div>
+  </div>
+
+  <a href="#" class="back-to-top" title="Back to Top">&#8679;</a>
+  <script src="script.js" defer></script>
+</body>
+
+</html>
